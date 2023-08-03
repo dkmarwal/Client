@@ -1,0 +1,14 @@
+#navbar {
+  .MuiTab-wrapper {
+    font-size: 16px;
+    color: #0b1941;
+    text-transform: initial;
+    font-weight: 400 !important;
+  }
+  .MuiTab-textColorInherit.Mui-selected {
+    span.MuiTab-wrapper {
+      color: #008ce6 !important;
+      font-weight: 400 !important;
+    }
+  }
+}

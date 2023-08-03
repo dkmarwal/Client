@@ -1,0 +1,274 @@
+.dialogTitle {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1c4b6b;
+}
+.dialogConten {
+  font-size: 16px;
+  color: #1c4b6b;
+  padding: 10px;
+}
+.confirmTitle {
+  font-size: 16px;
+}
+.noBtn {
+  background-color: #f39f90 !important;
+}
+.yesBtn,
+.noBtn {
+  padding: 0.8rem !important;
+}
+.alert-dialog-message {
+  font-size: 20px;
+  font-weight: 300;
+}
+.dialogTitle,
+.dialogConten {
+  font-weight: normal;
+  padding: 0 12px;
+}
+.dialogCross {
+  float: right;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+}
+.sideDialog {
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin: 0;
+  width: 630px;
+  padding: 0;
+  overflow: hidden;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  height: 100%;
+  bottom: 0;
+  max-height: none;
+  max-width: none !important;
+  background: white;
+  display: block;
+  overflow-y: auto;
+
+  .imgIcon {
+    margin-right: 5px;
+    position: relative;
+    bottom: 2px;
+  }
+  .heading {
+    padding: 13px;
+    box-shadow: 0 1px 0px 0 rgba(35, 35, 36, 0.45);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  // .MuiBox-root {
+  //   padding: 0 !important;
+  // }
+  button.MuiButtonBase-root {
+    font-size: 12px;
+  }
+}
+
+.centerDialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  overflow-y: scroll;
+  height: 600px;
+  bottom: 0;
+  max-height: none;
+  max-width: none !important;
+  width: 840px;
+  background: white;
+  transform: translate(-50%, -50%);
+
+  .imgIcon {
+    margin-right: 5px;
+    position: relative;
+  }
+  .heading {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14),
+      0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    width: 100%;
+  }
+
+  .dialogTitle {
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 36px;
+    // padding: 0 !important;
+    word-break: break-word;
+  }
+
+  button.MuiButtonBase-root {
+    font-size: 16px;
+  }
+}
+
+.notificationSideDialog {
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin: 0;
+  // width: 630px;
+  width: 30%;
+  min-width: 300px;
+  padding: 0;
+  overflow-y: scroll;
+  height: 100%;
+  bottom: 0;
+  max-height: none;
+  max-width: none !important;
+  background: white;
+
+  .heading {
+    box-shadow: 0 1px 0px 0 rgba(35, 35, 36, 0.45);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #0b1941;
+    padding: 13.5px 20px;
+  }
+
+  .dialogTitle {
+    font-size: 24px;
+    letter-spacing: 0;
+    color: #0b1941;
+  }
+
+  .alert-dialog-message {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0px;
+    // overflow: hidden;
+    // height: 100vh;
+    display: block;
+  }
+
+  .img {
+    color: #0b1941;
+    padding-right: 15px;
+  }
+
+  .dialogConten {
+    font-size: 16px;
+    color: #1c4b6b;
+  }
+
+  button.MuiButtonBase-root {
+    font-size: 12px;
+  }
+}
+
+.customSideDialog {
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin: 0;
+  // width: 630px;
+  width: 30%;
+  min-width: 300px;
+  padding: 0;
+  overflow-y: scroll;
+  height: 100%;
+  bottom: 0;
+  max-height: none;
+  max-width: none !important;
+  background: white;
+
+  .heading {
+    box-shadow: 0 1px 0px 0 rgba(35, 35, 36, 0.45);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #0b1941;
+    padding: 4.5px 0;
+    justify-content: space-between;
+  }
+
+  .dialogTitle {
+    font-size: 24px;
+    letter-spacing: 0;
+    color: #0b1941;
+  }
+
+  // .alert-dialog-message {
+  //   font-size: 20px;
+  //   font-weight: 300;
+  //   overflow: hidden;
+  //   height: 100vh;
+  //   display: block;
+  // }
+
+  .imgIcon {
+    margin-right: 5px;
+    position: relative;
+    bottom: 2px;
+  }
+
+  .dialogConten {
+    font-size: 16px;
+  }
+
+  button.MuiButtonBase-root {
+    font-size: 12px;
+  }
+}
+
+.DialogContainerNew {
+  // font-family: "Interstate", Arial, Helvetica, sans-serif !important;
+  .MuiDialog-paperWidthSm {
+    max-width: none !important;
+  }
+  .modalContentBorder {
+    border: 1px solid rgba(0, 0, 0, 0.21);
+  }
+  .dialogTitle {
+    font-size: 24px;
+    letter-spacing: 0;
+    color: #0b1941;
+  }
+}
+
+.previewDialogTitle{
+  font-size: 16px;
+  padding: 10px 24px !important;
+  background: #CCE4FF;
+  color: #0B1941;
+}
+.previewCloseBtn{
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.confirmModalBox{
+  border-radius: 8px;
+}
+.centerTitle{
+  text-align: center;
+  font-size: 16px;
+  color: #4C4C4C;
+}
+.confirmMessage{
+  text-align: center;
+  font-size: 16px;
+  color: #4C4C4C;
+}
+.actionBtns{
+  padding: 24px !important;
+}
+.closeBtn{
+  cursor: pointer;
+  color: #4C4C4C;  
+}
+.confirmTitle{
+  font-size: 24px;
+  color: #0B1941;
+  text-align: center;
+}

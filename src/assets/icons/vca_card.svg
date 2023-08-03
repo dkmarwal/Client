@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>AC04C6D8-F6DE-4D81-A43F-47EAB17B00E5</title>
+    <defs>
+        <path d="M20,3.99999997 L3.99999996,3.99999997 C2.88999996,3.99999997 2.00999996,4.88999997 2.00999996,5.99999997 L1.99999996,18 C1.99999996,19.11 2.88999996,20 3.99999996,20 L20,20 C21.11,20 22,19.11 22,18 L22,5.99999997 C22,4.88999997 21.11,3.99999997 20,3.99999997 L20,3.99999997 Z M20,18 L3.99999997,18 L3.99999997,12 L20,12 L20,18 L20,18 Z M20,7.99999997 L3.99999997,7.99999997 L3.99999997,5.99999997 L20,5.99999997 L20,7.99999997 L20,7.99999997 Z" id="path-1"></path>
+    </defs>
+    <g id="Client-Portal-Phase-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Payments---mypayments-VCA" transform="translate(-768.000000, -667.000000)">
+            <g id="Group-17" transform="translate(189.000000, 63.000000)">
+                <g id="Group-8" transform="translate(560.000000, 589.000000)">
+                    <g id="add_location" transform="translate(19.000000, 15.000000)">
+                        <polygon id="Base" points="-5.00000112e-08 -4.9999926e-08 24 -4.9999926e-08 24 24.0000001 -5.00000112e-08 24.0000001"></polygon>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Icon" fill-rule="nonzero"></g>
+                        <rect id="↳-🎨-Color" fill="#53565A" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>DCDFE8F2-A3D1-43BE-B712-FCB3E3245277</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="20" height="20" rx="4"></rect>
+        <path d="M16,0 C18.209139,0 20,1.790861 20,4 L20,16 C20,18.209139 18.209139,20 16,20 L4,20 C1.790861,20 0,18.209139 0,16 L0,4 C0,1.790861 1.790861,0 4,0 L16,0 Z M16,1 L4,1 C2.40231912,1 1.09633912,2.24891996 1.00509269,3.82372721 L1,4 L1,16 C1,17.5976809 2.24891996,18.9036609 3.82372721,18.9949073 L4,19 L16,19 C17.5976809,19 18.9036609,17.75108 18.9949073,16.1762728 L19,16 L19,4 C19,2.40231912 17.75108,1.09633912 16.1762728,1.00509269 L16,1 Z" id="path-3"></path>
+        <path d="M15.2696602,5.95713428 C15.6483741,6.2984159 15.7055166,6.86344221 15.4212707,7.27104107 L15.3430854,7.36944046 L9.23274781,14.1479546 L9.16829229,14.2070848 L9.06728622,14.2817525 L8.95004595,14.3466063 L8.90590775,14.3660064 L8.80887572,14.4000889 L8.69712925,14.42611 L8.5791573,14.4394217 L8.46644486,14.4391076 L8.3724649,14.4291617 L8.25756088,14.4044728 L8.17373814,14.3771664 L8.06447349,14.3284371 L7.95944532,14.2652671 L7.91274158,14.2311432 L7.81853424,14.1479546 L4.61340604,10.9428264 C4.22288175,10.5523021 4.22288175,9.91913716 4.61340604,9.52861287 C4.97389,9.16812891 5.54112106,9.14039937 5.93341226,9.44542426 L6.0276196,9.52861287 L8.487,11.988 L13.857354,6.03055954 C14.2270758,5.62028614 14.8593868,5.58741253 15.2696602,5.95713428 Z" id="path-5"></path>
+    </defs>
+    <g id="Client-Portal-v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SUPPLIER-DETAILS-4" transform="translate(-499.000000, -1132.000000)">
+            <g id="Group-11" transform="translate(324.000000, 1047.000000)">
+                <g id="Group-19" transform="translate(5.000000, 85.000000)">
+                    <g id="icon/checkbox_unchecked_citidirect" transform="translate(170.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="White-Background" fill="#FFFFFF" xlink:href="#path-1"></use>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Border" fill="#CCCCCC" xlink:href="#path-3"></use>
+                        <mask id="mask-6" fill="white">
+                            <use xlink:href="#path-5"></use>
+                        </mask>
+                        <use id="Icon" fill="#008CE6" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

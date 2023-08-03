@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="21px" viewBox="0 0 19 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ach grey</title>
+    <defs>
+        <path d="M3.99999997,9.99999999 L3.99999997,17 L6.99999997,17 L6.99999997,9.99999999 L3.99999997,9.99999999 L3.99999997,9.99999999 Z M9.99999999,9.99999999 L9.99999999,17 L13,17 L13,9.99999999 L9.99999999,9.99999999 L9.99999999,9.99999999 Z M1.99999996,22 L21,22 L21,19 L1.99999996,19 L1.99999996,22 L1.99999996,22 Z M16,9.99999999 L16,17 L19,17 L19,9.99999999 L16,9.99999999 L16,9.99999999 Z M11.5,0.999999954 L1.99999996,5.99999995 L1.99999996,7.99999995 L21,7.99999995 L21,5.99999995 L11.5,0.999999954 L11.5,0.999999954 Z" id="path-1"></path>
+    </defs>
+    <g id="Client-Portal-Phase-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Settings--Payment-Methods(list)" transform="translate(-267.000000, -90.000000)">
+            <g id="add_location" transform="translate(265.000000, 89.000000)">
+                <polygon id="Base" points="-4.99999828e-08 -5.00000112e-08 24.0000001 -5.00000112e-08 24.0000001 24 -4.99999828e-08 24"></polygon>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Icon" fill-rule="nonzero"></g>
+                <rect id="↳-🎨-Color" fill="#53565A" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

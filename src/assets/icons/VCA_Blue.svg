@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>746F2744-E7CD-4C11-83A6-8352D11BA377</title>
+    <defs>
+        <path d="M20,3.99999997 L3.99999996,3.99999997 C2.88999996,3.99999997 2.00999996,4.88999997 2.00999996,5.99999997 L1.99999996,18 C1.99999996,19.11 2.88999996,20 3.99999996,20 L20,20 C21.11,20 22,19.11 22,18 L22,5.99999997 C22,4.88999997 21.11,3.99999997 20,3.99999997 L20,3.99999997 Z M20,18 L3.99999997,18 L3.99999997,12 L20,12 L20,18 L20,18 Z M20,7.99999997 L3.99999997,7.99999997 L3.99999997,5.99999997 L20,5.99999997 L20,7.99999997 L20,7.99999997 Z" id="path-1"></path>
+    </defs>
+    <g id="Notification-Variants" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-digit-notification-variant" transform="translate(-907.000000, -581.000000)">
+            <g id="row-supplier" transform="translate(120.000000, 564.000000)">
+                <g id="credit_card" transform="translate(787.000000, 17.000000)">
+                    <polygon id="Base" points="-5.00000112e-08 -4.9999926e-08 24 -4.9999926e-08 24 24.0000001 -5.00000112e-08 24.0000001"></polygon>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Icon" fill-rule="nonzero"></g>
+                    <rect id="↳-🎨-Color" fill="#002D72" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

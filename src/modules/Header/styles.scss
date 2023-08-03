@@ -1,0 +1,27 @@
+.HeaderModule{
+    background: #FFF;
+    box-shadow: 0 2px 4px 0 rgba(119,151,178,0.14) !important;
+    .header-title{	
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .primary-nav{
+        img{
+            max-width: 2.75rem;
+        }
+    }
+    .alignRight{
+        text-align: right;
+    }
+    .searchbox-container{
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        padding: 0rem 0.5rem;
+        .search-box{
+            width: 85%;
+        }
+        button{
+            padding: 3px 0px;
+        }
+    }
+}

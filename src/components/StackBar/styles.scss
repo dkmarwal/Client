@@ -1,0 +1,72 @@
+._tileWrap {
+  // display: inline-flex;
+  margin: 20px 30px;
+  font-family: interstate, sans-serif;
+  .cardWrap {
+    max-height: 124px;
+
+    ._content {
+      padding: 10px 20px;
+      .heading {
+        color: rgba(11, 25, 65, 0.6);
+        font-family: interstate, sans-serif;
+        font-size: 18px;
+        letter-spacing: 0.14px;
+        line-height: 24px;
+        text-align: center;
+        font-weight: "normal";
+      }
+    }
+    .chip {
+      display: inline-block;
+      height: 8px;
+    }
+    .tooltip {
+      position: relative;
+      display: inline;
+    }
+
+    /* Tooltip text */
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 70px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      font-size: 12px;
+      padding: 2px 0;
+      border-radius: 6px;
+      bottom: -22px;
+      left: 24%;
+      position: absolute;
+      z-index: 1;
+    }
+
+    /* Show the tooltip text when you mouse over the tooltip container */
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
+    .squareBox {
+      background: red;
+      width: 10px;
+      height: 10px;      
+      margin: 5px 10px 10vh;
+      float: left;
+    }
+    .info {
+      font-family: interstate, sans-serif;
+
+      .text {
+        color: #666666;
+      }
+      .percentage {
+        display: block;
+        color: rgba(0, 0, 0, 0.87);
+        margin-left: 32px;
+      }
+    }
+    .keyPoints {
+      margin: 10px 0;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="22px" viewBox="0 0 23 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>child_company</title>
+    <defs>
+        <circle id="path-1" cx="11.5" cy="3.5" r="3.5"></circle>
+        <path d="M23,19.0000636 C23,20.6280042 21.6848,22 20,22 C18.3152,22 17,20.6280042 17,19.0000636 C17,17.3721231 18.3152,16 20,16 C21.6848,16 23,17.3721231 23,19.0000636 Z" id="path-3"></path>
+        <path d="M6,19.0000636 C6,20.6280042 4.684776,22 3,22 C1.315224,22 0,20.6280042 0,19.0000636 C0,17.3721231 1.315224,16 3,16 C4.684776,16 6,17.3721231 6,19.0000636 Z" id="path-5"></path>
+        <polyline id="path-7" points="3 17 3 13 20 13 20 17"></polyline>
+        <path d="M11.5,13 L11.5,7" id="path-9"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="child_company" transform="translate(-1.000000, -1.000000)">
+            <g transform="translate(1.000000, 1.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Oval" fill="#3B588A" xlink:href="#path-1"></use>
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="Path" fill="#3B588A" xlink:href="#path-3"></use>
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <use id="Path" fill="#3B588A" xlink:href="#path-5"></use>
+                <mask id="mask-8" fill="white">
+                    <use xlink:href="#path-7"></use>
+                </mask>
+                <use id="Path" stroke="#3B588A" xlink:href="#path-7"></use>
+                <mask id="mask-10" fill="white">
+                    <use xlink:href="#path-9"></use>
+                </mask>
+                <use id="Path" stroke="#3B588A" xlink:href="#path-9"></use>
+            </g>
+        </g>
+    </g>
+</svg>

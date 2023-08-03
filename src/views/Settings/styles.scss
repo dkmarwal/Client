@@ -1,0 +1,28 @@
+.NavCard {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+span.flagContainer span {
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 500px;
+}
+
+span.flagContainer {
+  font-weight: 600;
+  display: flex;
+  position: relative;
+  line-height: 42px;
+}
+.paymentsTabContainer {
+  color: #000;
+}
+.MuiTab-textColorSecondary {
+  color: #0b1941;
+}
+
+.customeWidth {
+  width: 60%;
+}

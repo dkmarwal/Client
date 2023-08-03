@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>791C8497-2A60-4546-B6F7-6863204D2FEC</title>
+    <defs>
+        <polygon id="path-1" points="16 5.99999997 18.29 8.28999998 13.41 13.17 9.40999999 9.16999999 1.99999996 16.59 3.40999996 18 9.40999999 12 13.41 16 19.71 9.70999999 22 12 22 5.99999997"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="All-Icons" transform="translate(-64.000000, -394.000000)">
+            <g id="Reports" transform="translate(40.000000, 394.000000)">
+                <g id="ic_trending_up" transform="translate(24.000000, 0.000000)">
+                    <polygon id="Base" points="-5.00000112e-08 -4.9999926e-08 24 -4.9999926e-08 24 24.0000001 -5.00000112e-08 24.0000001"></polygon>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Icon"></g>
+                    <rect id="↳-🎨-Color" fill="#0B1941" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

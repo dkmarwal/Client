@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" version="1.1"><rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="none" stroke="none"/>
+    <title>69EB545D-104E-467B-B2B4-0C5D2BE9D75E</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.043137 0 0 0 0 0.098039 0 0 0 0 0.254902 0 0 0 1.000000 0"/>
+        </filter>
+        <path d="M11.92,10.85125 L9.176875,8.108125 L11.92,5.365 L10.85125,4.29625 L8.108125,7.039375 L5.365,4.29625 L4.29625,5.365 L7.039375,8.108125 L4.29625,10.85125 L5.365,11.92 L8.108125,9.176875 L10.85125,11.92 L11.92,10.85125 Z M2.72875,2.764375 C4.22500748,1.26811752 6.01811455,0.52 8.108125,0.52 C10.1981354,0.52 11.9853051,1.26218008 13.4696875,2.7465625 C14.9540699,4.23094492 15.69625,6.01811455 15.69625,8.108125 C15.69625,10.1981355 14.9540699,11.9853051 13.4696875,13.4696875 C11.9853051,14.9540699 10.1981354,15.69625 8.108125,15.69625 C6.01811455,15.69625 4.23094492,14.9540699 2.7465625,13.4696875 C1.26218008,11.9853051 0.52,10.1981355 0.52,8.108125 C0.52,6.01811455 1.25624264,4.23688236 2.72875,2.764375 Z" id="path-2"/>
+    </defs>
+    
+<g class="currentLayer" style=""><title>Layer 1</title><g id="Client-Portal-v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="1" class="selected" filter="">
+        <g id="MY-SUPPLIERS-Table" opacity="1" filter="">
+            <g id="ic_lock" filter="" opacity="1">
+                <g id="svg_1" opacity="1" filter="">
+                    <mask id="mask-3" fill="white" transform="translate(1,2) translate(1072,384) translate(-1073,-386) ">
+                        <use xlink:href="#path-2" id="svg_2"/>
+                    </mask>
+                    <use id="Fill" fill="#0B1941" xlink:href="#path-2" y="0" x="0"/>
+                </g>
+            </g>
+        </g>
+    </g></g></svg>

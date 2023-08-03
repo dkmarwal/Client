@@ -1,0 +1,96 @@
+.generalSettingsWrapper {
+  .checkbox-lable {
+    color: #0b1941;
+  }
+  .description {
+    font-size: 14px;
+    padding-left: 2px;
+    color: #4c4c4c;
+  }
+  .floatRight {
+    float: right;
+  }
+  .floatLeft {
+    float: left;
+  }
+  .displayInlineBLock {
+    display: inline-block;
+  }
+
+  .horizontalMargin {
+    margin-left: 10px;
+  }
+
+  .button {
+    padding: 7px 15px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 600;
+  }
+  .settingHeading {
+    font-weight: normal;
+    font-size: 24px;
+    color: #0b1941;
+    padding: 20px 0 10px 0;
+    // margin-bottom: 16px;
+  }
+  .firstHeading {
+    font-weight: normal;
+    font-size: 24px;
+    color: #0b1941;
+    // padding: 20px 0 10px 0;
+    // margin-bottom: 16px;
+  }
+  .boldText
+    span.MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1 {
+    font-weight: 600;
+  }
+  .colorblue
+    span.MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1 {
+    color: rgba(11, 25, 65, 0.87);
+  }
+  .textHeading {
+    font-weight: normal;
+    color: #2b2d30;
+  }
+  .errorText {
+    color: #f44336;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .errorText2 {
+    color: #f44336;
+    margin-left: 40px;
+    margin-right: 14px;
+  }
+  .errorPadding {
+    padding-left: 20px;
+  }
+  .mainConatiner {
+    border-bottom: 1px solid #8f9ec3;
+    padding: 16px;
+  }
+  .radioBtnClass {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .radioBtnLabel {
+    width: 30%;
+  }
+  .checkboxBtnLabel {
+    width: 45%;
+  }
+  .radioBtnGrp {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    label {
+      width: 50%;
+    }
+  }
+  .dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

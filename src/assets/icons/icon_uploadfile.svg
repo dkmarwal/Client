@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="26px" viewBox="0 0 28 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>906C2BC3-3A8A-4503-869C-C0CA94143D94</title>
+    <defs>
+        <path d="M2,14.6666667 L2,20 C2,22.1302412 3.66522662,23.8715478 5.76496962,23.9932097 L6,24 L22,24 C24.1302412,24 25.8715478,22.3347734 25.9932097,20.2350304 L26,20 L26,14.6666667 L27.3333333,14.6666667 L27.3333333,20 C27.3333333,22.8562605 25.088042,25.1881052 22.2661871,25.3268063 L22,25.3333333 L6,25.3333333 C3.14373948,25.3333333 0.811894832,23.088042 0.673193743,20.2661871 L0.666666667,20 L0.666666667,14.6666667 L2,14.6666667 Z M15.6666667,-1.95399252e-14 L15.6663333,9 L18.6666667,9 L14,18.3333333 L9.33333333,9 L12.3323333,9 L12.3333333,-1.95399252e-14 L15.6666667,-1.95399252e-14 Z" id="path-1"></path>
+    </defs>
+    <g id="Client-Portal-v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Payments---upload-file" transform="translate(-741.000000, -282.000000)">
+            <g id="icon/citidirect/download" transform="translate(755.000000, 295.000000) rotate(180.000000) translate(-755.000000, -295.000000) translate(741.000000, 282.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Icon" fill="#0B1941" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

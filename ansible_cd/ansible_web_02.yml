@@ -1,0 +1,30 @@
+---
+#Update HAPROXY config and restart haproxy service
+- hosts: prod_nginx_ha_servers
+  become: true
+  tasks:
+          - name: Add the 1st prod web server back to HAPROXY
+            shell: sed -i "s/#//g" /etc/haproxy/haproxy.cfg
+
+          - name: Remove the second web server from Load Balancer (HAPROXY)
+            shell: sed -i "s/server prod-ord-web02/#server prod-ord-web02/g" /etc/haproxy/haproxy.cfg
+
+          - name: Restart the HAPROXY service
+            shell: service haproxy reload
+
+#Perform frontend deployment
+- hosts: prod_web_servers[1]
+  vars_files: ansible_vars/{{ app }}/var.yml
+  become: true
+  tasks:
+          - name: Copy build artifacts to prod servers
+            copy: src={{ app_path }}/build_artifact.tgz dest=/CITI_PROD/{{ app_name }}/ mode=0777
+
+          - name: Unzip the Build artifact
+            unarchive:
+                    src: /CITI_PROD/{{ app_name }}/build_artifact.tgz
+                    dest: /CITI_PROD/{{ app_name }}/
+                    remote_src: yes
+
+          - name: Run the deployment script
+            command: "sh /CITI_PROD/{{ app_name }}/deploy_run_env.sh CITI_PROD"

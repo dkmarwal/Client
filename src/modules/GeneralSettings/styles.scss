@@ -1,0 +1,61 @@
+.generalSettingsWrapper {
+  .checkbox-lable {
+    color: #0b1941;
+  }
+  .description {
+    font-size: 16px;
+    padding-left: 2px;
+  }
+  .floatRight {
+    float: right;
+  }
+
+  .displayInlineBLock {
+    display: inline-block;
+  }
+
+  .horizontalMargin {
+    margin-left: 10px;
+  }
+
+  .button {
+    padding: 7px 50px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 400;
+    height: 37px;
+  }
+  .settingHeading {
+    font-weight: normal;
+    font-size: 20px;
+    color: #0b1941;
+  }
+
+  .textBold{
+    font-weight: 600;
+  }
+
+  .boldText
+    span.MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1 {
+    font-weight: 600;
+  }
+  .colorblue
+    span.MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1 {
+    color: rgba(11, 25, 65, 0.87);
+  }
+  .errorText {
+    color: #f44336;
+    margin-left: 14px;
+    margin-right: 14px;
+    font-size: 13px;
+   }
+   .textHeading {
+    font-weight: normal;
+    color: #2b2d30;
+  }
+  .headingLabel {
+    font-weight: 600;
+    color: rgba(11, 25, 65, 0.87);
+    padding-top: 16px;
+  }
+}

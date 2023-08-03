@@ -1,0 +1,25 @@
+.clientLogoContainer {
+  .avatar {
+    width: 100px;
+    height: 100px;
+    display: block;
+    background: #dadada;
+    margin: 20px 0px 0px 40px;
+    border-radius: 200px;
+    text-align: center;    
+    padding: 14px 0;
+  }
+  .clientLogo {
+    .imageAvatar {
+      vertical-align: middle;
+      max-width: 150px;
+      height: auto;
+      margin: 0px 0px 0px 40px;
+      background: #f6f6f6;
+    }
+  }
+  .errorMessage {
+    color: red;
+    font-size: 14px;
+  }
+}

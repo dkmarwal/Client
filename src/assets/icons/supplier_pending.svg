@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="16px" viewBox="0 0 21 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>supplier_pending</title>
+    <defs>
+        <path d="M8,8 C10.21,8 12,6.21 12,4 C12,1.79 10.21,0 8,0 C5.79,0 4,1.79 4,4 C4,6.21 5.79,8 8,8 Z M20.1176,0 L18,0 L18,7.0588 L20.1176,7.0588 L20.1176,0 Z M20.1176,9.4116 L18,9.4116 L18,11.5293 L20.1176,11.5293 L20.1176,9.4116 Z M0,14 C0,11.34 5.33,10 8,10 C10.67,10 16,11.34 16,14 L16,16 L0,16 L0,14 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="supplier_pending">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Shape"></g>
+            <rect id="Rectangle" fill="#3B588A" fill-rule="nonzero" mask="url(#mask-2)" x="0" y="-1" width="21" height="17"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,85 @@
+pipeline {
+    agent none
+    stages {
+		stage('Sonar Code Quality') {
+            when {
+                branch 'client_citi_prod'
+            }
+            agent {label 'master'}
+			environment {
+				scannerHome = tool 'sonar-cli'
+			}
+            steps {
+                script {
+					withSonarQubeEnv('sonar') {
+						sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=PROD-client-portal"
+					}
+				}
+            }
+        }
+        stage('Install NodeJS dependencies') {
+            when {
+                branch 'client_citi_prod'
+            }
+            agent {label 'master'}
+            steps {
+                dir('./SourceCode/Frontend/client_portal') {
+					sh 'npm install'
+                }
+				dir('./SourceCode/Frontend/client_portal/server') {
+					sh 'npm install'
+                }
+            }
+        }
+        stage('Build NodeJS') {
+            when {
+                branch 'client_citi_prod'
+            }
+            agent {label 'master'}
+            steps {
+                dir('./SourceCode/Frontend/client_portal') {
+					sh 'REACT_APP_STAGE=CITI_PROD PUBLIC_URL=/ node --max-old-space-size=4000 scripts/build.js'
+					sh 'cp -r build server/'
+                }
+            }
+        }
+        stage('Deploy_CITI_PROD_WEB_01') {
+            when {
+                branch 'client_citi_prod'
+            }
+            agent {label 'master'}
+            steps {
+                input 'Deploy to Prod Web Server 01'
+                milestone(1)
+                ansiblePlaybook(become: true, credentialsId: 'jenkins_slave', extras: '--extra-vars "app=client_portal"', installation: 'ansible', inventory: 'SourceCode/Frontend/client_portal/ansible_cd/hosts', playbook: 'SourceCode/Frontend/client_portal/ansible_cd/ansible_web_01.yml')
+            }
+        }
+        stage('Deploy_CITI_PROD_WEB_02') {
+            when {
+                branch 'client_citi_prod'
+            }
+            agent {label 'master'}
+            steps {
+                input 'Deploy to Prod Web Server 02'
+                milestone(2)
+                ansiblePlaybook(become: true, credentialsId: 'jenkins_slave', extras: '--extra-vars "app=client_portal"', installation: 'ansible', inventory: 'SourceCode/Frontend/client_portal/ansible_cd/hosts', playbook: 'SourceCode/Frontend/client_portal/ansible_cd/ansible_web_02.yml')
+            }
+        }
+        stage('Web_02_HA_Add') {
+            when {
+                branch 'client_citi_prod'
+            }
+            agent {label 'master'}
+            steps {
+                input 'Re-add Prod Web Server 02 to HA'
+                milestone(3)
+                ansiblePlaybook(become: true, credentialsId: 'jenkins_slave', installation: 'ansible', inventory: 'SourceCode/Frontend/client_portal/ansible_cd/hosts', playbook: 'SourceCode/Frontend/client_portal/ansible_cd/ansible_ha_add.yml')
+            }
+            post {
+		       always {
+                    cleanWs()
+               }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.tablePadding {
+  padding: 10px 16px;  
+  color: rgb(2, 22, 24)!important
+}
+
+.chipCheckTablePadding {
+  padding: 10px 16px;  
+  color: rgb(2, 22, 24)!important
+}
+.chipSelectedColor {
+  color: #ffffff !important;
+  padding: 10px !important;
+  height: 32px !important;
+  font-weight: 100 !important;
+  background-color: #0b1941 !important;
+}
+.chipUnselectedColor {
+  color: #0b1941 !important;
+  padding: 10px !important;
+  height: 32px !important;
+  font-weight: 100 !important;
+}
+.chipContiner{
+  border: 1px solid #CCCCCC;
+  padding: 3px;
+  border-radius: 7px;
+}
+.chipContiner .chipUnselectedColor{
+  background: none; 
+  border-radius: 4px;
+}
+.chipContiner .MuiChip-label{
+  color: #4C4C4C;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 8px 4px;
+}
+
+.chipContiner .chipSelectedColor{
+  background: #008CE6!important;
+  border-radius: 4px;
+}
+
+.chipContiner .chipSelectedColor .MuiChip-label{
+  color: #fff;
+}
+
+.MuiTableCell-head{font-weight: 400; font-size: 15px; padding: 8px 15px; background: #CCE4FF;}
+

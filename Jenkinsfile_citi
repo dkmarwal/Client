@@ -1,0 +1,49 @@
+pipeline {
+    agent none
+    stages {
+		
+        stage('Install NodeJS dependencies') {
+            when {
+                branch 'client_citi_prod'
+            }
+            agent {label 'master'}
+            steps {
+                dir('./SourceCode/Frontend/client_portal') {
+					sh 'npm install'
+                }
+				dir('./SourceCode/Frontend/client_portal/server') {
+					sh 'npm install'
+                }
+            }
+        }
+        stage('Build NodeJS') {
+            when {
+                branch 'client_citi_prod'
+            }
+            agent {label 'master'}
+            steps {
+                dir('./SourceCode/Frontend/client_portal') {
+					sh 'REACT_APP_STAGE=CITI_UAT PUBLIC_URL=/ node --max-old-space-size=4000 scripts/build.js'
+					sh 'cp -r build server/'
+                }
+            }
+        }
+        stage('Deploy_CITI_UAT') {
+            when {
+                branch 'client_citi_prod'
+
+            }
+            agent {label 'master'}
+            steps {
+                input 'Deploy to CITI UAT?'
+                milestone(1)
+                sshPublisher(publishers: [sshPublisherDesc(configName: 'uat-cte-webserver-1', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: '''pwd; chmod +x /CITI_UAT/client_portal/deploy_run_env.sh; sh /CITI_UAT/client_portal/deploy_run_env.sh CITI_UAT;''', execTimeout: 30000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/CITI_UAT/client_portal', remoteDirectorySDF: false, removePrefix: 'SourceCode/Frontend/client_portal/server', sourceFiles: 'SourceCode/Frontend/client_portal/server/**/*')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: true)])			
+            }
+            post {
+		       always {
+                    cleanWs()
+               }
+            }
+        }
+    }
+}

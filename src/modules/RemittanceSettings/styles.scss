@@ -1,0 +1,25 @@
+.container {
+    padding: 32px;
+}
+.remittanceBtnGroup{
+    border: solid 1px #CCCCCC !important;
+}
+.remittanceBtnGroup .MuiToggleButtonGroup-grouped{
+    padding: 8px 24px !important;
+    color: #0B1941 !important;
+    width: 115px !important;
+    border: none;
+    text-transform: capitalize;
+}
+.remittanceBtnGroup .Mui-selected{
+    background-color: #0B1941 !important;
+    color: #fff !important;
+    margin: 2px !important;
+    border-radius: 4px 4px !important;
+}
+.remittanceBtnGroup .MuiToggleButton-root.Mui-disabled{
+    background-color: rgba(0, 0, 0, 0.12) !important;
+}
+.checkedIcon{
+    margin-right: 8px;
+}

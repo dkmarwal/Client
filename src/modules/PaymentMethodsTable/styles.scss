@@ -1,0 +1,28 @@
+.tablePadding {
+  padding: 5px 16px;
+}
+.chipCheckTablePadding {
+  padding: 12px 16px;
+}
+.chipSelectedColor {
+  color: #ffffff !important;
+  padding: 10px !important;
+  height: 32px !important;
+  font-weight: 100 !important;
+  background-color: #0b1941 !important;
+}
+.chipUnselectedColor {
+  color: #0b1941 !important;
+  padding: 10px !important;
+  height: 32px !important;
+  font-weight: 100 !important;
+}
+
+.toggleButtonContainer{
+  display: flex;
+  .cardSelectionButton{
+    color: #0B1941;
+    cursor: pointer;
+  }
+}
+

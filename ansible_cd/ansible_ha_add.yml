@@ -1,0 +1,10 @@
+---
+#Update HAPROXY config and restart haproxy service
+- hosts: prod_nginx_ha_servers
+  become: true
+  tasks:
+          - name: Add the 2nd prod web server back to HAPROXY
+            shell: sed -i "s/#//g" /etc/haproxy/haproxy.cfg
+
+          - name: Restart the HAPROXY service
+            shell: service haproxy reload

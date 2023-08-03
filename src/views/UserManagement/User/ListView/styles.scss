@@ -1,0 +1,80 @@
+#user-list-view{
+    margin-bottom:20px;
+	.button-normal{
+		font-size: 14px;
+		color: #ffffff;
+		text-transform: capitalize;
+	}
+	.filter-button{
+		cursor: pointer;
+	}
+	 .filterWrap {
+		background-color: #f0f5f7;
+		padding: 1.5rem;
+		margin-bottom: 1.5rem;
+		.react-datepicker-wrapper{
+			width: 100%;
+			.dateField {
+				width: calc(100% - 1.4rem);
+				height: 1.1875em;
+				min-width: 0;
+				background: none;
+				box-sizing: content-box;
+				animation-name: MuiInputBase-keyframes-auto-fill-cancel;
+				-webkit-tap-highlight-color: transparent;
+				outline: none;
+				border: solid 1px #dfe1ef;
+				background-color: #fff;
+				padding: 0.7rem
+			}
+		}
+		.clearBtn{
+			padding: 7px 30px;
+			margin: 0 20px 0 0;
+		}
+		.MuiOutlinedInput-input{
+			padding: .7rem;
+			background-color: #fff;
+		}
+	}
+    .taxation-expanded-item {
+        width:300px;
+        flex-grow: 0 !important;
+	}
+	ul.error li {
+		list-style: none;
+        float:left;
+	}
+}
+
+ul.error li {
+    list-style: disc;
+    text-align:left;
+    margin: 0.5rem 0rem;
+    p {
+        padding: 0 6px;
+        margin: 2px 0;
+        text-align: left;
+        font-size:14px;
+    }
+}
+
+.dropDownStyle {
+	border: none;
+}
+.dropDownStyle div {
+	padding: 10px;
+	background-color: #fff;
+	border: none;
+	box-shadow: 0 8px 6px -6px rgb(219, 219, 219);
+}
+.dropDownStyle div span, .dropDownStyle div {
+	font-size: 14px;
+}
+.tableHeadPadding {
+	padding: 0px 16px !important;
+	font-size: 16px;
+}
+.tablePadding {
+	padding: 5px 16px;
+}

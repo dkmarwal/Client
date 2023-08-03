@@ -1,0 +1,24 @@
+.tileWrap {
+  font-family: interstate, sans-serif;
+  margin: 20px 30px;
+  .content {
+    padding: 32px 20px;
+    span {
+      display: block;
+    }
+    .heading {
+      color: rgba(11, 25, 65, 0.6);
+      font-family: interstate, sans-serif;
+      letter-spacing: 0.14px;
+      line-height: 24px;
+      text-align: center;
+    }
+    .highlights {
+      color: rgba(0, 0, 0, 0.87);
+      font-family: interstate, sans-serif;
+      letter-spacing: 0;
+      line-height: 36px;
+      text-align: center;
+    }
+  }
+}

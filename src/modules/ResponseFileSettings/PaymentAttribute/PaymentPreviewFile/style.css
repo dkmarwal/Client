@@ -1,0 +1,108 @@
+
+ .rootLabel{
+   width: 100%;
+ }
+ .rootLabel li::after{
+   width: auto !important;
+   border-left: none;
+ }
+ .rootLabel li::before{
+  width: auto !important;
+}
+.rootLabel .css-oalq6z{
+	text-align: left;
+  padding-left: 4% !important;
+  padding: 15px 8px 0;
+}
+.parentRoot{
+  width: 250px;
+  text-align: left !important;
+}
+
+.parentRoot .css-n4cq1w::before{
+	height: 100% !important;
+  border-left: solid 1px #9E9E9E !important;
+}
+.css-n4cq1w::before{
+  left: 4% !important;
+  border-left: solid 1px #9E9E9E !important;
+  height: 20px;
+}
+.rootLabel li span:last-child::before{
+	  border: 2px solid #9E9E9E;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    margin-right: 10px;
+}
+.rootLabel li i{
+    border: 0.5px solid #8F9EC3;
+    width: 25px;
+    display: inline-block;
+    background: #8F9EC3;
+    vertical-align: bottom;
+}
+.rootLabel span {
+    overflow: hidden;
+    text-align: left;
+	  display: inline;
+    font-size: 12px;
+    vertical-align: middle;
+}
+.rootLabel span::before,
+.rootLabel span::after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 35%;
+}
+.rootLabel span::before {
+    right: 0em;
+}
+.rootLabel span::after {
+    display: none;
+}
+.childDiv::before {
+  border: 1px solid #000;
+  width: 5px;
+  height: 2px;
+}
+.rootLabel .css-oalq6z:last-of-type::before{
+  border-right: none !important;
+}
+.parentRoot .css-n4cq1w{
+  padding-top: 0 !important;
+}
+.css-oalq6z ul{
+  padding-top: 20px;
+}
+.parentRoot.css-oalq6z::before {
+  right: 94% !important;
+}
+.parentRoot.css-oalq6z::after{
+  left: 6% !important;
+}
+.css-oalq6z{
+  text-align: left !important;
+  padding: 20px 8px;
+}
+.css-oalq6z::before, .css-oalq6z::after{
+  height: 20px !important;
+  border-top: solid 1px #9E9E9E !important;
+}
+.css-oalq6z::after{
+  border-left: solid 1px #9E9E9E;
+}
+:first-of-type.css-oalq6z::before, :last-of-type.css-oalq6z::after{
+  border: 0 none !important;
+}
+:last-of-type.css-oalq6z::before{
+  border-right: solid 1px #9E9E9E !important;
+  border-radius: 0 5px 0 0;
+}
+:first-of-type.css-oalq6z::after{
+  border-radius: 5px 0 0 0;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="18px" viewBox="0 0 22 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7F8DA276-CAA9-4F4C-B814-49175B14BC2C</title>
+    <defs>
+        <path d="M20,0 C21.1,0 22,0.9 22,2 L22,2 L22,16 C22,17.1 21.1,18 20,18 L20,18 L2,18 C0.9,18 0,17.1 0,16 L0,16 L0,2 C0,0.9 0.9,0 2,0 L2,0 Z M20,10 L11,10 L11,16 L20,16 L20,10 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="All-Icons" transform="translate(-65.000000, -617.000000)">
+            <g id="Settings" transform="translate(40.000000, 542.000000)">
+                <g id="icon/action/settings" transform="translate(25.000000, 75.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Combined-Shape" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <rect id="↳-🎨-Color" fill="#0B1941" mask="url(#mask-2)" x="-1" y="-3" width="24" height="24"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
